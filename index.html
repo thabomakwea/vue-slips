@@ -12,11 +12,38 @@
 </head>
 <body>
   <div id="app">
-    <nav class="navbar navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">{{ name }}</a>
+
+    <header  class="mb-5">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <i class="bi bi-chat-square-quote"></i><strong>Robo slips</strong></a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="mt-4">
+      <div class="row">
+        <div class="col-3">
+          <img src="images/robot.gif" class="robot ml-a">
+        </div>
+        <div class="col-4">
+          <div class="input-group mb-0">
+            <input type="text" class="form-control" placeholder="Search advice slips">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+          </div>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          <blockquote class="blockquote mt-4">
+            <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
+            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          </blockquote>
+        </div>
       </div>
-    </nav>
+    </section>
+
+    <footer>
+      
+    </footer>
+
   </div>
   <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
   
